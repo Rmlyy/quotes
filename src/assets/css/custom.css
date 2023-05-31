@@ -1,0 +1,30 @@
+.title h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.error {
+  background-color: #e53935 !important;
+  border-color: #e53935 !important;
+}
+
+.quote {
+  text-align: center;
+}
+
+.quote footer {
+  text-align: right;
+  font-style: italic;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 50% !important;
+  }
+}
